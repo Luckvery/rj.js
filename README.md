@@ -10,25 +10,28 @@ Simple requirejs plugin to load in ReactJS Specifications
 /**
  * @jsx React.DOM
  */
-define(['rj!YOU', 'rj!DIDNT', 'rj!HAVETO', rj!CUTMEOFF',],function(SOMEBODY , I , USEDTO , KNOW) {
+define(['rj!YOU', 'rj!DIDNT', 'rj!HAVETO', 'rj!CUTMEOFF'], function (SOMEBODY, I, USEDTO, KNOW) {
     return {
         _name: 'SOMEBODY',
-        render: function() {
+        render: function () {
             return (!this.props.friendsCollect)
-                ? (<div class='happened'></div>)
-                : (<div class='never-happened'>
-                    <section id='notneeded-love' class='stranger rough feels'>
-                        <div className='changeNumber'>
-                            <form = 'Somebody>
-                                <SOMEBODY/>
-                                <I/>
-                                <USEDTO/>
-                                <KNOW/>
-                            </form>
-                        </div>
-                    </section>
-                </div>
-            );
+                ? (
+                    <div class='happened'></div>
+                )
+                : (
+                    <div class='never-happened'>
+                        <section id='notneeded-love' class='stranger rough feels'>
+                            <div className='changeNumber'>
+                                <form = 'Somebody'>
+                                    <SOMEBODY/>
+                                    <I/>
+                                    <USEDTO/>
+                                    <KNOW/>
+                                </form>
+                            </div>
+                        </section>
+                    </div>
+                );
         }
     };
 });
